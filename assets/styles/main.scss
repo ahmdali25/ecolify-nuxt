@@ -1,0 +1,10 @@
+@import "bootstrap/scss/bootstrap";
+
+@font-face {
+    font-family: 'poppins-light-regular', sans-serif;
+    src: url('~assets/fonts/Poppins-Light.ttf') format('truetype');
+}
+
+body {
+    font-family: 'poppins-light-regular', sans-serif;
+}
