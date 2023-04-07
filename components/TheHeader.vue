@@ -17,7 +17,9 @@
                         <img class="img-flag" src="@/assets/images/eng.png" alt="Icon Flag">
                     </li>
                     <li class="nav-item">
-                        <NuxtLink to="/getInTouch" class="button button-state-secondary">Get In Touch</NuxtLink>
+                        <NuxtLink to="/getInTouch">
+                            <BaseButton :isPrimary="false" :isSmallButton="true" name="Get In Touch" />
+                        </NuxtLink>
                     </li>
                 </ul>
             </div>
@@ -44,28 +46,5 @@ const lists = ref([
             border: 2px solid #2dc48d
         }
     }
-}
-
-.button {
-    display: inline-block;
-    font-weight: 400;
-    font-size: 14px;
-    color: #212529;
-    height: 46px;
-    width: 128px;
-    padding: 10px 18px;
-    border-radius: 6px;
-    border: none;
-    text-align: center;
-    vertical-align: middle;
-}
-
-a {
-    text-decoration: none;
-}
-
-.button-state-secondary {
-    background: linear-gradient(250.73deg,#2dc48d 5.56%,#2bb994 96.08%);
-    color: #ffffff;
 }
 </style>
