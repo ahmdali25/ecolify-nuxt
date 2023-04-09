@@ -2,13 +2,13 @@
     <button
         class="button"
         :class="isPrimary ? 'button-state-primary' : 'button-state-secondary'"
-        :style="{fontSize: ( isSmallButton ? '14px' : '16px' )}">
+        :style="{fontSize: ( isSmallButton ? '14px' : '16px' ), padding: padding}">
         {{ name }}
     </button>
 </template>
 
 <script setup>
-defineProps(['name', 'isPrimary', 'isSmallButton'])
+defineProps(['name', 'isPrimary', 'isSmallButton', 'padding'])
 </script>;
 
 <style lang="scss" scoped>
@@ -17,9 +17,6 @@ defineProps(['name', 'isPrimary', 'isSmallButton'])
     font-weight: 400;
     font-size: 14px;
     color: #212529;
-    height: 46px;
-    width: 128px;
-    padding: 10px 18px;
     border-radius: 6px;
     border: none;
     text-align: center;
@@ -31,8 +28,12 @@ a {
 }
 
 .button-state-primary {
-    background: #2591b4;
+    background: #007BFF;
     color: #ffffff;
+}
+
+.button-state-primary:hover {
+    background: #0069D9;
 }
 
 .button-state-secondary {
