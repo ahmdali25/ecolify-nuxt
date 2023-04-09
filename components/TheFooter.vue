@@ -1,7 +1,4 @@
 <template>
-    <div class="wave">
-        <img class="wave__image" src="@/assets/images/footer-wave.svg" alt="Footer Wave">
-    </div>
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -69,11 +66,6 @@
 </template>
 
 <style lang="scss" scoped>
-.wave {
-    &__image {
-        width: 100%;
-    }
-}
 .footer {
     background-color: #47BAA6;
     color: #ffffff;
