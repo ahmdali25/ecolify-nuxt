@@ -56,8 +56,10 @@
                 </article>
             </div>
         </section>
-        <section class="row justify-content-center mt-5 mb-5">
-            <BaseButton :isPrimary="false" :isSmallButton="false" name="Lanjut Baca" />
+        <section class="row mt-5 mb-5">
+            <div class="text-center">
+                <BaseButton :isPrimary="false" :isSmallButton="false" padding="10px 18px" name="Lanjut Baca" />
+            </div>
         </section>
     </div>
 </template>
