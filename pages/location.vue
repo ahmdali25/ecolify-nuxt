@@ -72,11 +72,12 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <div class="text-center">
-                        <BaseButton :isPrimary="true" :isSmallButton="false" padding="6px 50px" name="Unduh" />
+                        <BaseButton :isPrimary="true" :isSmallButton="false" padding="6px 50px" name="Unduh" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
                     </div>
                 </div>
             </div>
         </section>
+        <Modal />
     </div>
 </template>
 
