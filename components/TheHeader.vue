@@ -14,7 +14,7 @@
             <div class="ml-auto">
                 <ul class="navbar-nav d-flex flex-row justify-content-between align-items-center">
                     <li class="nav-item me-2">
-                        <img class="img-flag" src="@/assets/images/eng.png" alt="Icon Flag">
+                        <img class="img-flag" src="@/assets/images/id.png" alt="Icon Flag">
                     </li>
                     <li class="nav-item">
                         <NuxtLink to="/getInTouch">
@@ -29,11 +29,11 @@
 
 <script setup>
 const lists = ref([
-    { id: 1, name: "Home", path: "/" },
+    { id: 1, name: "Beranda", path: "/" },
     { id: 2, name: "Blog", path: "/blog" },
-    { id: 3, name: "Why?", path: "why" },
-    { id: 4, name: "Service", path: "/service" },
-    { id: 5, name: "Location", path: "/location" }
+    { id: 3, name: "Kenapa?", path: "why" },
+    { id: 4, name: "Layanan", path: "/service" },
+    { id: 5, name: "Lokasi", path: "/location" }
 ])
 </script>
 
