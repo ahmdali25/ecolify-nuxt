@@ -18,7 +18,7 @@
                     </li>
                     <li class="nav-item">
                         <NuxtLink to="/getInTouch">
-                            <BaseButton :isPrimary="false" :isSmallButton="true" padding="12px 25px" name="Get In Touch" />
+                            <BaseButton :isPrimary="false" :isSmallButton="true" padding="12px 25px" name="Hubungi" />
                         </NuxtLink>
                     </li>
                 </ul>
